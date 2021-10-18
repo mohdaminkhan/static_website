@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/.bin/jest"
   },
-  "type":"module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohdaminkhan/static_website.git"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mohdaminkhan/static_website/issues"
   },
-  "homepage": "https://github.com/mohdaminkhan/static_website#readme"
+  "homepage": "https://github.com/mohdaminkhan/static_website#readme",
+  "devDependencies": {
+    "jest": "^27.3.0"
+  }
 }
