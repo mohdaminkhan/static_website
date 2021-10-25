@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --verbose"
   },
-  "type": "module",
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohdaminkhan/static_website.git"
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/mohdaminkhan/static_website#readme",
   "devDependencies": {
+    "isomorphic-fetch": "^3.0.0",
     "jest": "^27.3.0"
+  },
+  "dependencies": {
+    "knex": "^0.95.11",
+    "sqlite3": "^5.0.2"
   }
 }
